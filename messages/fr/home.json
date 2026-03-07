@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "badge": "Bienvenue sur la version bêta",
+    "title": "Piloter la transformation de la chaîne d'approvisionnement africaine.",
+    "description": "AISCR est un institut panafricain qui fait progresser la recherche, l'éducation et l'innovation dans la gestion de la chaîne d'approvisionnement — pour bâtir des systèmes plus solides au service d'un continent résilient et prospère.",
+    "cta_primary": "Rejoignez-nous",
+    "cta_secondary": "En savoir plus"
+  },
+  "section2": {
+    "badge": "À propos d'AISCR",
+    "title": "Redéfinir l'avenir de la chaîne d'approvisionnement africaine.",
+    "description": "Fondé en 2019, l'Institut africain pour la recherche sur la chaîne d'approvisionnement (AISCR) est une organisation à but non lucratif dédiée au renforcement des capacités, à l'avancement des connaissances et à la formation de la prochaine génération de leaders de la chaîne d'approvisionnement en Afrique. Nous connectons la recherche, l'éducation et l'entreprise pour libérer le potentiel économique de l'Afrique.",
+    "cards": {
+      "research": {
+        "title": "Recherche appliquée",
+        "description": "Des insights basés sur les données pour des politiques et stratégies plus intelligentes."
+      },
+      "education": {
+        "title": "Éducation & Formation",
+        "description": "Renforcer les capacités des professionnels et des institutions."
+      },
+      "partnerships": {
+        "title": "Partenariats",
+        "description": "Collaboration avec les gouvernements, les universités et le secteur privé."
+      }
+    }
+  },
+  "section3": {
+    "first_title": "Transformer le savoir en Impact concret.",
+    "stats": {
+      "countries": {
+        "value": "15+",
+        "label": "Pays africains atteints"
+      },
+      "professionals": {
+        "value": "500+",
+        "label": "Professionnels formés"
+      },
+      "research": {
+        "value": "120+",
+        "label": "Articles de recherche & publications"
+      },
+      "partnerships": {
+        "value": "40+",
+        "label": "Partenariats institutionnels"
+      }
+    },
+    "badge": "Des idées à l'impact",
+    "title": "Programmes & Initiatives en vedette",
+    "description": "À travers des programmes ciblés et des partenariats, l'AISCR déploie des initiatives fondées sur la recherche qui transforment les systèmes de chaîne d'approvisionnement en Afrique.",
+    "learn_more": "En savoir plus",
+    "cards": {
+      "leadership": {
+        "title": "Programme de leadership en chaîne d'approvisionnement en Afrique",
+        "description": "Préparer la prochaine génération de leaders de la chaîne d'approvisionnement grâce à une formation et un mentorat à fort impact."
+      },
+      "research": {
+        "title": "Subventions de recherche pour l'innovation",
+        "description": "Financer la recherche qui favorise la réforme des politiques, l'efficacité opérationnelle et la transformation durable."
+      },
+      "conference": {
+        "title": "Conférence panafricaine sur la chaîne d'approvisionnement",
+        "description": "Connecter les experts, les institutions et les décideurs pour façonner l'agenda de la chaîne d'approvisionnement en Afrique."
+      }
+    }
+  },
+  "section4": {
+    "badge": "Pourquoi votre soutien compte",
+    "title": "Votre contribution génère le changement.",
+    "description": "Chaque contribution, grande ou petite, alimente la recherche, renforce les professionnels et accélère le parcours de l'Afrique vers l'excellence en matière de chaîne d'approvisionnement.",
+    "cta": "Faire un don",
+    "cards": {
+      "educate": {
+        "title": "Éduquer",
+        "description": "Soutenez un étudiant, sponsorisez une formation ou donnez du pouvoir à un futur leader."
+      },
+      "fund_research": {
+        "title": "Financer la recherche",
+        "description": "Permettez des études révolutionnaires qui influencent les politiques et débloquent des améliorations systémiques."
+      },
+      "scale_impact": {
+        "title": "Amplifier l'impact",
+        "description": "Aidez-nous à étendre nos programmes à davantage de pays, de communautés et d'institutions."
+      }
+    }
+  },
+  "section6": {
+    "badge": "Témoignages",
+    "title": "De vraies histoires. De vraies transformations.",
+    "description": "Écoutez les chercheurs, professionnels et partenaires dont la vie et les institutions ont été transformés grâce aux initiatives de l'AISCR.",
+    "testimonials": {
+      "t1": {
+        "quote": "L'AISCR a complètement changé ma façon d'aborder les défis de la chaîne d'approvisionnement. Les outils de recherche et le réseau qu'ils offrent n'ont pas d'équivalent sur le continent.",
+        "name": "Sophia Moore",
+        "role": "PDG chez Webflow Agency"
+      },
+      "t2": {
+        "quote": "Grâce aux programmes de formation de l'AISCR, notre équipe atteint désormais un niveau d'efficacité que nous n'aurions jamais cru possible. Un véritable tournant pour les entreprises africaines.",
+        "name": "James Okafor",
+        "role": "Responsable logistique, Ports de Lagos"
+      },
+      "t3": {
+        "quote": "La Conférence panafricaine sur la chaîne d'approvisionnement m'a ouvert des portes que je ne soupçonnais même pas. J'ai noué des partenariats dans 10 pays en un seul week-end.",
+        "name": "Amina Diallo",
+        "role": "Analyste chaîne d'approvisionnement, Dakar"
+      },
+      "t4": {
+        "quote": "Les subventions de recherche de l'AISCR ont permis à notre université de publier des résultats qui influencent désormais la politique nationale en matière de chaîne d'approvisionnement.",
+        "name": "Dr. Emmanuel Tetteh",
+        "role": "Professeur, Université du Ghana"
+      },
+      "t5": {
+        "quote": "Le programme de mentorat m'a donné la confiance et les compétences nécessaires pour lancer mon propre cabinet de conseil. J'emploie aujourd'hui 12 personnes dans deux pays.",
+        "name": "Fatima Al-Rashid",
+        "role": "Fondatrice, SupplyBridge Consulting"
+      }
+    }
+  }
+}

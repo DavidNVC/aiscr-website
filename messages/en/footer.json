@@ -1,0 +1,49 @@
+{
+  "cta": {
+    "badge": "Join the movement",
+    "title": "Africa's Supply Chain Future Starts With You",
+    "description": "Join us in creating more efficient, inclusive, and resilient supply chains across the continent.",
+    "join": "Join Us Today",
+    "donate": "Donate Now"
+  },
+  "brand": {
+    "description": "Established in 2019, the African Institute for Supply Chain Research (AISCR) provides supply chain research, education, outreach, and networking solutions for a better Africa.",
+    "learn_more": "Learn More"
+  },
+  "quick_links": {
+    "title": "Quick Links",
+    "membership": "Membership",
+    "research": "Research & Innovation",
+    "education": "Education & Training",
+    "outreach": "Outreach & Networking",
+    "publications": "Publications",
+    "work_with_us": "Work with Us",
+    "support": "Support AISCR",
+    "events": "Upcoming Events"
+  },
+  "about": {
+    "title": "About",
+    "about_aiscr": "About AISCR",
+    "board": "Board of Directors",
+    "management": "Management",
+    "advisory": "Advisory Committees",
+    "experts": "Experts",
+    "industries": "Industries and Sectors",
+    "partners": "Strategic Partners"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "email_value": "info@aiscrglobal.org",
+    "phone": "Phone",
+    "phone_sa": "(SA) +27 12 686 9126",
+    "phone_usa": "(USA) +1 972 665 9945",
+    "offices": "Offices",
+    "offices_value": "South Africa, USA"
+  },
+  "bottom": {
+    "copyright": "COPYRIGHT AISCR © 2025 - ALL RIGHTS RESERVED",
+    "privacy": "Privacy Policy & Cookie Policy",
+    "design": "WORDPRESS WEBSITE DESIGN CENTURION"
+  }
+}

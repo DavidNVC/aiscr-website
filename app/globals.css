@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+    /* --- Couleurs Unies (Solid Colors) --- */
+    --neutral-600: #6f6c90;
+    --neutral-800: #170f49;
+
+    --color-black-primary: #0a1636;
+    --color-black-secondary: #333333;
+    --color-black-tertiary: #0d0d0d;
+    --color-white-secondary: #f9f9f9;
+    --color-text-blue: #2c5cd5;
+    --color-light-blue: #e5ebfa;
+    --color-text-green: #40d52c;
+
+    /* --- Dégradés (Gradients) --- */
+    --gradient-primary-button: linear-gradient(
+        180deg,
+        #2c5cd5 0%,
+        #193b8f 100%
+    );
+    --gradient-hero-bg: linear-gradient(
+        135deg,
+        #e8f5f0 0%,
+        #d4eee8 30%,
+        #e0f0f8 60%,
+        #f0f8ff 100%
+    );
+    --gradient-hero-title: linear-gradient(180deg, #2c5cd5 0%, #193b8f 100%);
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-primary-blue: var(--color-text-blue);
+    --color-black-tertiary: var(--color-black-tertiary);
+    --color-white-secondary: var(--color-white-secondary);
+    --color-light-blue: var(--color-light-blue);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    --background-image-primary-button: var(--gradient-primary-button);
+    --background-image-hero: var(--gradient-hero-bg);
+    --background-image-hero-title: var(--gradient-hero-title);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-geist-sans);
+}
+
+* {
+    font-family: var(--font-geist-sans);
+    box-sizing: border-box;
+}
+
+.text-gradient {
+    background: linear-gradient(180deg, #0d0f14 -11.46%, #2c5cd5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-green-gradient {
+    background: linear-gradient(180deg, #ffffff -11.46%, #c6efc0 100%);
+    --webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

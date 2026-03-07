@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "badge": "Welcome to the beta version",
+    "title": "Driving Africa's Supply Chain Transformation",
+    "description": "AISCR is a Pan-African institute advancing research, education, and innovation in supply chain management — building stronger systems for a resilient and prosperous continent.",
+    "cta_primary": "Join Us Today",
+    "cta_secondary": "Learn More About Us"
+  },
+  "section2": {
+    "badge": "About AISCR",
+    "title": "Redefining Africa's Supply Chain Future.",
+    "description": "Founded in 2019, the African Institute for Supply Chain Research (AISCR) is a non-profit organization dedicated to building capacity, advancing knowledge, and shaping the next generation of supply chain leaders across Africa. We connect research, education, and enterprise to unlock Africa's economic potential.",
+    "cards": {
+      "research": {
+        "title": "Applied Research",
+        "description": "Data-driven insights for smarter policy and strategy."
+      },
+      "education": {
+        "title": "Education & Training",
+        "description": "Empowering professionals and institutions through capacity building."
+      },
+      "partnerships": {
+        "title": "Partnerships",
+        "description": "Collaborating with governments, universities, and the private sector."
+      }
+    }
+  },
+  "section3": {
+    "first_title": "Turning Knowledge into Tangible Impact.",
+    "stats": {
+      "countries": {
+        "value": "15+",
+        "label": "African countries reached"
+      },
+      "professionals": {
+        "value": "500+",
+        "label": "Professionals trained"
+      },
+      "research": {
+        "value": "120+",
+        "label": "Research papers & publications"
+      },
+      "partnerships": {
+        "value": "40+",
+        "label": "Institutional partnerships"
+      }
+    },
+    "badge": "From ideas to impact",
+    "title": "Featured Programs & Initiatives",
+    "description": "Through targeted programs and partnerships, AISCR delivers research-driven initiatives that transform supply chain systems in Africa.",
+    "learn_more": "Learn More",
+    "cards": {
+      "leadership": {
+        "title": "Africa Supply Chain Leadership Program",
+        "description": "Preparing the next generation of supply chain leaders through high-impact training and mentorship."
+      },
+      "research": {
+        "title": "Research Grants for Innovation",
+        "description": "Funding research that drives policy reform, operational efficiency, and sustainable transformation."
+      },
+      "conference": {
+        "title": "Pan-African Supply Chain Conference",
+        "description": "Connecting experts, institutions, and decision-makers to shape Africa's supply chain agenda."
+      }
+    }
+  },
+  "section4": {
+    "badge": "Why your support matters",
+    "title": "Your Contribution Drives Change.",
+    "description": "Every contribution, big or small fuels research, empowers professionals, and accelerates Africa's journey toward supply chain excellence.",
+    "cta": "Donate Now",
+    "cards": {
+      "educate": {
+        "title": "Educate",
+        "description": "Support a student, sponsor a training, or empower a future leader."
+      },
+      "fund_research": {
+        "title": "Fund Research",
+        "description": "Enable groundbreaking studies that influence policy and unlock systemic improvements."
+      },
+      "scale_impact": {
+        "title": "Scale Impact",
+        "description": "Help us bring our programs to more countries, more communities, and more institutions."
+      }
+    }
+  },
+  "section6": {
+    "badge": "Testimonials",
+    "title": "Real Stories. Real Transformation.",
+    "description": "Hear from the researchers, professionals, and partners whose lives and institutions have been transformed through AISCR's initiatives.",
+    "testimonials": {
+      "t1": {
+        "quote": "AISCR completely changed how I approach supply chain challenges. The research tools and network they provide are unmatched on the continent.",
+        "name": "Sophia Moore",
+        "role": "CEO at Webflow Agency"
+      },
+      "t2": {
+        "quote": "Thanks to AISCR's training programs, our team now operates with a level of efficiency we never thought possible. A game-changer for African businesses.",
+        "name": "James Okafor",
+        "role": "Head of Logistics, Lagos Ports"
+      },
+      "t3": {
+        "quote": "The Pan-African Supply Chain Conference opened doors I didn't even know existed. I connected with partners across 10 countries in one weekend.",
+        "name": "Amina Diallo",
+        "role": "Supply Chain Analyst, Dakar"
+      },
+      "t4": {
+        "quote": "AISCR's research grants allowed our university to publish findings that are now shaping national supply chain policy.",
+        "name": "Dr. Emmanuel Tetteh",
+        "role": "Professor, University of Ghana"
+      },
+      "t5": {
+        "quote": "The mentorship program gave me the confidence and skills to launch my own consultancy. I now employ 12 people across two countries.",
+        "name": "Fatima Al-Rashid",
+        "role": "Founder, SupplyBridge Consulting"
+      }
+    }
+  }
+}

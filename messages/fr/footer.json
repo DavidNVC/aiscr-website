@@ -1,0 +1,49 @@
+{
+  "cta": {
+    "badge": "Rejoignez le mouvement",
+    "title": "L'avenir de la chaîne d'approvisionnement africaine commence avec vous",
+    "description": "Rejoignez-nous pour créer des chaînes d'approvisionnement plus efficaces, inclusives et résilientes à travers le continent.",
+    "join": "Rejoignez-nous",
+    "donate": "Faire un don"
+  },
+  "brand": {
+    "description": "Fondé en 2019, l'Institut africain pour la recherche sur la chaîne d'approvisionnement (AISCR) fournit des solutions de recherche, d'éducation, de sensibilisation et de mise en réseau pour une meilleure Afrique.",
+    "learn_more": "En savoir plus"
+  },
+  "quick_links": {
+    "title": "Liens rapides",
+    "membership": "Adhésion",
+    "research": "Recherche & Innovation",
+    "education": "Éducation & Formation",
+    "outreach": "Sensibilisation & Réseautage",
+    "publications": "Publications",
+    "work_with_us": "Travailler avec nous",
+    "support": "Soutenir l'AISCR",
+    "events": "Événements à venir"
+  },
+  "about": {
+    "title": "À propos",
+    "about_aiscr": "À propos de l'AISCR",
+    "board": "Conseil d'administration",
+    "management": "Direction",
+    "advisory": "Comités consultatifs",
+    "experts": "Experts",
+    "industries": "Industries et secteurs",
+    "partners": "Partenaires stratégiques"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "email_value": "info@aiscrglobal.org",
+    "phone": "Téléphone",
+    "phone_sa": "(SA) +27 12 686 9126",
+    "phone_usa": "(USA) +1 972 665 9945",
+    "offices": "Bureaux",
+    "offices_value": "Afrique du Sud, USA"
+  },
+  "bottom": {
+    "copyright": "COPYRIGHT AISCR © 2025 - TOUS DROITS RÉSERVÉS",
+    "privacy": "Politique de confidentialité & Cookies",
+    "design": "WORDPRESS WEBSITE DESIGN CENTURION"
+  }
+}
