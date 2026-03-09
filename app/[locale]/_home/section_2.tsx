@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import DarkGridBackground from "../../_components/_backgrounds/DarkGridBackground";
 import FeatureCard from "../../_components/_cards/FeatureCard";
 import AppBadge from "@/app/_components/_buttons/AppBadge";
-import Section3 from "./section_3";
 
 export default function Section2() {
   const t = useTranslations("home.section2");

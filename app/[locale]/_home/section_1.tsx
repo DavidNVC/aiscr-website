@@ -8,7 +8,7 @@ export default function Section1() {
   const t = useTranslations("home.hero");
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-center px-4 sticky -z-10 top-0">
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 ">
       {/* Animated mint aurora background */}
       <AuroraBlobBackground preset="mint" />
 
@@ -38,6 +38,6 @@ export default function Section1() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

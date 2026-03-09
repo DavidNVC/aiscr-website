@@ -370,7 +370,7 @@ export default function AuroraBlobBackground({
 
   return (
     <div
-      className={`absolute inset-0 overflow-hidden ${className ?? ""}`}
+      className={`absolute inset-0 overflow-hidden ${className ?? ""} -z-10`}
       aria-hidden="true"
     >
       {/* Base fill */}

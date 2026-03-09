@@ -17,9 +17,11 @@ export default function ImpactCard({
       <DarkGridBackground variant="white" withGradient={false} />
 
       {/* Outer light-blue circle */}
-      <div className="relative z-10 flex items-center justify-center w-24 h-24 rounded-full bg-blue-100 mb-6">
-        {/* Inner dark-blue circle */}
-        <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary-blue">
+      {/* Inner dark-blue circle */}
+      <div className="relative flex justify-center items-center">
+        <div className="absolute flex items-center justify-center w-24 h-24 rounded-full bg-blue-100 mb-6 " />
+
+        <div className="relative flex items-center justify-center w-16 h-16 rounded-full bg-primary-blue">
           <Image
             src={icon}
             alt={title}

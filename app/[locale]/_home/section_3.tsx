@@ -32,7 +32,7 @@ export default function Section3() {
   ] as const;
 
   return (
-    <section className="w-full border-b border-gray-100 overflow-hidden sticky -top-4/9">
+    <section className="relative w-full border-b border-gray-100 overflow-hidden ">
       {/* Animated pastel aurora background */}
       <AuroraBlobBackground preset="pastel" />
 

@@ -84,7 +84,7 @@
       }
     }
   },
-  "section6": {
+  "section5": {
     "badge": "Témoignages",
     "title": "De vraies histoires. De vraies transformations.",
     "description": "Écoutez les chercheurs, professionnels et partenaires dont la vie et les institutions ont été transformés grâce aux initiatives de l'AISCR.",
@@ -114,6 +114,13 @@
         "name": "Fatima Al-Rashid",
         "role": "Fondatrice, SupplyBridge Consulting"
       }
+    },
+    "section5_2": {
+      "badge": "Partenaires",
+      "title": "Ensemble, nous bâtissons une",
+      "title_highlight": "Afrique plus forte.",
+      "description": "Notre travail est renforcé par la collaboration avec les gouvernements, les universités, les partenaires au développement et le secteur privé.",
+      "cta": "Devenir partenaire"
     }
   }
 }
