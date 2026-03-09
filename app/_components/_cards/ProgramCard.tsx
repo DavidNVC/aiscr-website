@@ -35,7 +35,7 @@ export default function ProgramCard({
 
         <div className="absolute bottom-0 h-6/14 px-6 pb-8 py-3 flex flex-col gap-1 justify-between mt-auto bg-black/30 backdrop-blur-lg">
           <div className="flex flex-col gap-1">
-            <h3 className="text-2xl sm:text-3xl font-semibold leading-snug text-light-blue">
+            <h3 className="text-2xl sm:text-3xl font-semibold leading-snug text-light-blue line-clamp-2">
               {title}
             </h3>
 

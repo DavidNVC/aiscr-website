@@ -4,7 +4,7 @@ import ImpactCard from "../../_components/_cards/ImpactCard";
 import AppBadge from "@/app/_components/_buttons/AppBadge";
 import AppButton from "@/app/_components/_buttons/AppButton";
 
-export default function Section4() {
+export default function ImpactSection() {
   const t = useTranslations("home.section4");
 
   const cards = [

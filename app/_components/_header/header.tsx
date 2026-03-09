@@ -92,7 +92,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="shrink-0 flex items-center">
               <Image
-                src="/globe.svg"
+                src="/logo_globe.svg"
                 alt="AISCR"
                 width={40}
                 height={40}

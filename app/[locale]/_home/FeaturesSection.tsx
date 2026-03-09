@@ -3,7 +3,7 @@ import DarkGridBackground from "../../_components/_backgrounds/DarkGridBackgroun
 import FeatureCard from "../../_components/_cards/FeatureCard";
 import AppBadge from "@/app/_components/_buttons/AppBadge";
 
-export default function Section2() {
+export default function FeaturesSection() {
   const t = useTranslations("home.section2");
 
   const cards = [

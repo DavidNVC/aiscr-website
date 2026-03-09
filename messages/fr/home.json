@@ -122,5 +122,71 @@
       "description": "Notre travail est renforcé par la collaboration avec les gouvernements, les universités, les partenaires au développement et le secteur privé.",
       "cta": "Devenir partenaire"
     }
+  },
+  "insights": {
+    "badge": "À propos d'AISCR",
+    "title": "Des perspectives qui façonnent l'avenir.",
+    "description": "Explorez nos dernières recherches, publications et événements à venir.",
+    "learn_more": "En savoir plus",
+    "view_more": "Voir plus",
+    "tabs": {
+      "publications": "Publications",
+      "research": "Recherche",
+      "events": "Événements"
+    },
+    "publications": {
+      "pub1": {
+        "title": "Secrets publicitaires",
+        "description": "Jujubes tarte aux pommes bonbons sucettes gâteau aux fruits glace gelée. Caramel gâteau aux fruits dragée sucette bonbon barre chocolatée. Caramels glaçage gâteau aux carottes. Glaçage dessert jujubes."
+      },
+      "pub2": {
+        "title": "Secrets publicitaires",
+        "description": "Jujubes tarte aux pommes bonbons sucettes gâteau aux fruits glace gelée. Caramel gâteau aux fruits dragée sucette bonbon barre chocolatée. Caramels glaçage gâteau aux carottes. Glaçage dessert jujubes."
+      },
+      "pub3": {
+        "title": "Secrets publicitaires",
+        "description": "Jujubes tarte aux pommes bonbons sucettes gâteau aux fruits glace gelée. Caramel gâteau aux fruits dragée sucette bonbon barre chocolatée. Caramels glaçage gâteau aux carottes. Glaçage dessert jujubes."
+      },
+      "pub4": {
+        "title": "Secrets publicitaires",
+        "description": "Jujubes tarte aux pommes bonbons sucettes gâteau aux fruits glace gelée. Caramel gâteau aux fruits dragée sucette bonbon barre chocolatée. Caramels glaçage gâteau aux carottes. Glaçage dessert jujubes."
+      }
+    },
+    "research": {
+      "res1": {
+        "title": "Innovation en chaîne d'approvisionnement",
+        "description": "Explorer de nouvelles méthodologies pour l'optimisation de la chaîne d'approvisionnement sur les marchés africains. Des insights basés sur les données pour des réseaux logistiques et de distribution plus intelligents."
+      },
+      "res2": {
+        "title": "Innovation en chaîne d'approvisionnement",
+        "description": "Explorer de nouvelles méthodologies pour l'optimisation de la chaîne d'approvisionnement sur les marchés africains. Des insights basés sur les données pour des réseaux logistiques et de distribution plus intelligents."
+      },
+      "res3": {
+        "title": "Innovation en chaîne d'approvisionnement",
+        "description": "Explorer de nouvelles méthodologies pour l'optimisation de la chaîne d'approvisionnement sur les marchés africains. Des insights basés sur les données pour des réseaux logistiques et de distribution plus intelligents."
+      },
+      "res4": {
+        "title": "Innovation en chaîne d'approvisionnement",
+        "description": "Explorer de nouvelles méthodologies pour l'optimisation de la chaîne d'approvisionnement sur les marchés africains. Des insights basés sur les données pour des réseaux logistiques et de distribution plus intelligents."
+      }
+    },
+    "events": {
+      "evt1": {
+        "title": "Conférence panafricaine 2026",
+        "description": "Rejoignez-nous pour la conférence annuelle panafricaine sur la chaîne d'approvisionnement réunissant des leaders de l'industrie, des chercheurs et des décideurs de tout le continent."
+      },
+      "evt2": {
+        "title": "Conférence panafricaine 2026",
+        "description": "Rejoignez-nous pour la conférence annuelle panafricaine sur la chaîne d'approvisionnement réunissant des leaders de l'industrie, des chercheurs et des décideurs de tout le continent."
+      },
+      "evt3": {
+        "title": "Conférence panafricaine 2026",
+        "description": "Rejoignez-nous pour la conférence annuelle panafricaine sur la chaîne d'approvisionnement réunissant des leaders de l'industrie, des chercheurs et des décideurs de tout le continent."
+      },
+      "evt4": {
+        "title": "Conférence panafricaine 2026",
+        "description": "Rejoignez-nous pour la conférence annuelle panafricaine sur la chaîne d'approvisionnement réunissant des leaders de l'industrie, des chercheurs et des décideurs de tout le continent."
+      }
+    }
   }
 }

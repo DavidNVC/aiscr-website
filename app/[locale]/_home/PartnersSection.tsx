@@ -30,7 +30,7 @@ const PARTNERS = [
   { name: "Visa", logo: "/partners/visa.svg", width: 100, height: 48 },
 ];
 
-export default function Section5_2() {
+export default function PartnersSection() {
   const t = useTranslations("home.section5.section5_2");
 
   return (

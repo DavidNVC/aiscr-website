@@ -21,7 +21,7 @@ interface BlobConfig {
 
 interface AuroraBlobBackgroundProps {
   /** Use a built-in preset */
-  preset?: "mint" | "ocean" | "sunset" | "lavender" | "pastel";
+  preset?: "mint" | "mint-pastel" | "ocean" | "sunset" | "lavender" | "pastel";
   /** Or pass fully custom blobs (overrides preset) */
   blobs?: BlobConfig[];
   /** Base background color/gradient */
@@ -31,60 +31,64 @@ interface AuroraBlobBackgroundProps {
 }
 
 /* ────────────────────────────────────────────
- *  Presets
+ *  Presets - Enhanced for better visibility and smoother motion
  * ──────────────────────────────────────────── */
 
 const PRESET_MINT: BlobConfig[] = [
   {
     // Bottom-left — large mint wash
-    bottom: "-18%",
-    left: "-12%",
-    width: "60vw",
-    height: "50vw",
+    bottom: "-10%",
+    left: "-8%",
+    width: "65vw",
+    height: "55vw",
     background:
-      "radial-gradient(60% 55% at 35% 60%, rgba(180,232,222,0.55) 0%, rgba(190,240,230,0.25) 50%, transparent 100%)",
-    blur: 60,
+      "radial-gradient(60% 55% at 35% 60%, rgba(150,220,205,0.7) 0%, rgba(170,235,220,0.4) 45%, transparent 100%)",
+    blur: 45,
     borderRadius: "45%",
-    duration: 4,
+    duration: 12,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "30%", transform: "translate(120px, -80px) scale(1.18)" },
-      { offset: "60%", transform: "translate(-60px, 50px) scale(0.85)" },
+      { offset: "25%", transform: "translate(80px, -50px) scale(1.1)" },
+      { offset: "50%", transform: "translate(150px, -30px) scale(1.05)" },
+      { offset: "75%", transform: "translate(60px, 40px) scale(0.95)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
     // Top-right — tall mint column
-    top: "-10%",
-    right: "-5%",
-    width: "30vw",
-    height: "70vh",
+    top: "-5%",
+    right: "-3%",
+    width: "35vw",
+    height: "75vh",
     background:
-      "radial-gradient(55% 65% at 55% 40%, rgba(185,235,225,0.50) 0%, rgba(195,242,233,0.20) 55%, transparent 100%)",
-    blur: 50,
+      "radial-gradient(55% 65% at 55% 40%, rgba(160,230,215,0.65) 0%, rgba(180,240,228,0.35) 50%, transparent 100%)",
+    blur: 40,
     borderRadius: "42%",
-    duration: 5,
+    duration: 15,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "40%", transform: "translate(-100px, 70px) scale(1.20)" },
-      { offset: "70%", transform: "translate(50px, -50px) scale(0.82)" },
+      { offset: "20%", transform: "translate(-60px, 40px) scale(1.08)" },
+      { offset: "40%", transform: "translate(-100px, 80px) scale(1.15)" },
+      { offset: "60%", transform: "translate(-40px, 60px) scale(1.05)" },
+      { offset: "80%", transform: "translate(30px, -30px) scale(0.92)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
-    // Subtle center accent
-    top: "40%",
-    left: "25%",
-    width: "45vw",
-    height: "25vw",
+    // Center accent
+    top: "35%",
+    left: "20%",
+    width: "50vw",
+    height: "30vw",
     background:
-      "radial-gradient(70% 50% at 50% 50%, rgba(190,238,228,0.18) 0%, transparent 100%)",
-    blur: 70,
+      "radial-gradient(70% 50% at 50% 50%, rgba(170,235,220,0.35) 0%, transparent 100%)",
+    blur: 50,
     borderRadius: "50%",
-    duration: 3,
+    duration: 10,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "50%", transform: "translate(80px, 40px) scale(1.20)" },
+      { offset: "33%", transform: "translate(100px, 30px) scale(1.15)" },
+      { offset: "66%", transform: "translate(50px, -20px) scale(1.08)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
@@ -92,52 +96,55 @@ const PRESET_MINT: BlobConfig[] = [
 
 const PRESET_OCEAN: BlobConfig[] = [
   {
-    top: "-15%",
-    left: "-10%",
-    width: "65vw",
+    top: "-10%",
+    left: "-8%",
+    width: "70vw",
+    height: "55vw",
+    background:
+      "radial-gradient(60% 50% at 35% 45%, rgba(100,180,240,0.6) 0%, rgba(130,200,250,0.3) 50%, transparent 100%)",
+    blur: 40,
+    borderRadius: "44%",
+    duration: 14,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "25%", transform: "translate(100px, -50px) scale(1.12)" },
+      { offset: "50%", transform: "translate(160px, 20px) scale(1.05)" },
+      { offset: "75%", transform: "translate(60px, 70px) scale(0.92)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+  {
+    bottom: "-15%",
+    right: "-5%",
+    width: "60vw",
     height: "50vw",
     background:
-      "radial-gradient(60% 50% at 35% 45%, rgba(140,200,240,0.45) 0%, rgba(160,215,250,0.15) 55%, transparent 100%)",
-    blur: 55,
-    borderRadius: "44%",
-    duration: 4,
-    keyframes: [
-      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "35%", transform: "translate(130px, -70px) scale(1.18)" },
-      { offset: "65%", transform: "translate(-80px, 60px) scale(0.84)" },
-      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
-    ],
-  },
-  {
-    bottom: "-20%",
-    right: "-8%",
-    width: "55vw",
-    height: "45vw",
-    background:
-      "radial-gradient(55% 55% at 60% 55%, rgba(120,185,235,0.40) 0%, rgba(150,210,250,0.12) 60%, transparent 100%)",
-    blur: 60,
+      "radial-gradient(55% 55% at 60% 55%, rgba(80,160,230,0.55) 0%, rgba(120,195,250,0.25) 55%, transparent 100%)",
+    blur: 45,
     borderRadius: "40%",
-    duration: 5,
+    duration: 16,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "45%", transform: "translate(-120px, 80px) scale(1.20)" },
-      { offset: "80%", transform: "translate(70px, -45px) scale(0.85)" },
+      { offset: "20%", transform: "translate(-80px, 50px) scale(1.1)" },
+      { offset: "40%", transform: "translate(-140px, 100px) scale(1.18)" },
+      { offset: "60%", transform: "translate(-60px, 60px) scale(1.05)" },
+      { offset: "80%", transform: "translate(50px, -30px) scale(0.9)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
-    top: "30%",
-    left: "30%",
-    width: "40vw",
-    height: "22vw",
+    top: "25%",
+    left: "25%",
+    width: "45vw",
+    height: "28vw",
     background:
-      "radial-gradient(75% 50% at 50% 50%, rgba(135,195,245,0.16) 0%, transparent 100%)",
-    blur: 65,
+      "radial-gradient(75% 50% at 50% 50%, rgba(110,185,245,0.3) 0%, transparent 100%)",
+    blur: 50,
     borderRadius: "50%",
-    duration: 3,
+    duration: 11,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "50%", transform: "translate(70px, 30px) scale(1.22)" },
+      { offset: "50%", transform: "translate(90px, 40px) scale(1.2)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
@@ -145,52 +152,55 @@ const PRESET_OCEAN: BlobConfig[] = [
 
 const PRESET_SUNSET: BlobConfig[] = [
   {
-    bottom: "-15%",
-    left: "-10%",
-    width: "55vw",
-    height: "50vw",
+    bottom: "-10%",
+    left: "-8%",
+    width: "60vw",
+    height: "55vw",
     background:
-      "radial-gradient(60% 55% at 40% 60%, rgba(255,190,140,0.45) 0%, rgba(255,210,170,0.15) 55%, transparent 100%)",
-    blur: 55,
+      "radial-gradient(60% 55% at 40% 60%, rgba(255,170,120,0.6) 0%, rgba(255,200,160,0.3) 50%, transparent 100%)",
+    blur: 40,
     borderRadius: "43%",
-    duration: 4,
+    duration: 13,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "33%", transform: "translate(110px, -70px) scale(1.18)" },
-      { offset: "66%", transform: "translate(-70px, 45px) scale(0.84)" },
+      { offset: "25%", transform: "translate(90px, -50px) scale(1.12)" },
+      { offset: "50%", transform: "translate(140px, 10px) scale(1.05)" },
+      { offset: "75%", transform: "translate(50px, 60px) scale(0.92)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
-    top: "-12%",
-    right: "-6%",
-    width: "45vw",
-    height: "55vh",
-    background:
-      "radial-gradient(55% 60% at 55% 40%, rgba(255,160,180,0.40) 0%, rgba(255,185,200,0.12) 55%, transparent 100%)",
-    blur: 50,
-    borderRadius: "45%",
-    duration: 5,
-    keyframes: [
-      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "40%", transform: "translate(-90px, 60px) scale(1.20)" },
-      { offset: "75%", transform: "translate(60px, -35px) scale(0.85)" },
-      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
-    ],
-  },
-  {
-    top: "35%",
-    left: "20%",
+    top: "-8%",
+    right: "-4%",
     width: "50vw",
-    height: "25vw",
+    height: "60vh",
     background:
-      "radial-gradient(70% 50% at 50% 50%, rgba(255,200,160,0.14) 0%, transparent 100%)",
-    blur: 65,
-    borderRadius: "50%",
-    duration: 3,
+      "radial-gradient(55% 60% at 55% 40%, rgba(255,140,165,0.55) 0%, rgba(255,175,195,0.25) 50%, transparent 100%)",
+    blur: 38,
+    borderRadius: "45%",
+    duration: 15,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "50%", transform: "translate(80px, 35px) scale(1.22)" },
+      { offset: "20%", transform: "translate(-60px, 40px) scale(1.1)" },
+      { offset: "40%", transform: "translate(-110px, 80px) scale(1.18)" },
+      { offset: "60%", transform: "translate(-50px, 50px) scale(1.05)" },
+      { offset: "80%", transform: "translate(40px, -25px) scale(0.9)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+  {
+    top: "30%",
+    left: "15%",
+    width: "55vw",
+    height: "30vw",
+    background:
+      "radial-gradient(70% 50% at 50% 50%, rgba(255,185,145,0.28) 0%, transparent 100%)",
+    blur: 50,
+    borderRadius: "50%",
+    duration: 10,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "50%", transform: "translate(100px, 45px) scale(1.2)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
@@ -198,52 +208,55 @@ const PRESET_SUNSET: BlobConfig[] = [
 
 const PRESET_LAVENDER: BlobConfig[] = [
   {
-    top: "-18%",
-    right: "-10%",
+    top: "-12%",
+    right: "-8%",
+    width: "60vw",
+    height: "55vw",
+    background:
+      "radial-gradient(60% 55% at 60% 40%, rgba(170,150,235,0.6) 0%, rgba(200,185,250,0.3) 50%, transparent 100%)",
+    blur: 40,
+    borderRadius: "44%",
+    duration: 14,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "25%", transform: "translate(-80px, 50px) scale(1.12)" },
+      { offset: "50%", transform: "translate(-130px, 90px) scale(1.05)" },
+      { offset: "75%", transform: "translate(-40px, 40px) scale(0.92)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+  {
+    bottom: "-10%",
+    left: "-5%",
     width: "55vw",
     height: "50vw",
     background:
-      "radial-gradient(60% 55% at 60% 40%, rgba(190,170,240,0.45) 0%, rgba(210,195,250,0.15) 55%, transparent 100%)",
-    blur: 55,
-    borderRadius: "44%",
-    duration: 4,
-    keyframes: [
-      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "35%", transform: "translate(-110px, 70px) scale(1.18)" },
-      { offset: "70%", transform: "translate(70px, -50px) scale(0.84)" },
-      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
-    ],
-  },
-  {
-    bottom: "-15%",
-    left: "-8%",
-    width: "50vw",
-    height: "45vw",
-    background:
-      "radial-gradient(55% 55% at 35% 60%, rgba(200,180,245,0.40) 0%, rgba(220,205,255,0.12) 55%, transparent 100%)",
-    blur: 60,
+      "radial-gradient(55% 55% at 35% 60%, rgba(185,165,245,0.55) 0%, rgba(210,195,255,0.25) 50%, transparent 100%)",
+    blur: 45,
     borderRadius: "42%",
-    duration: 5,
+    duration: 16,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "40%", transform: "translate(120px, -60px) scale(1.20)" },
-      { offset: "75%", transform: "translate(-55px, 45px) scale(0.85)" },
+      { offset: "20%", transform: "translate(80px, -40px) scale(1.1)" },
+      { offset: "40%", transform: "translate(140px, -70px) scale(1.18)" },
+      { offset: "60%", transform: "translate(70px, -20px) scale(1.05)" },
+      { offset: "80%", transform: "translate(-30px, 35px) scale(0.9)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
-    top: "30%",
-    left: "25%",
-    width: "42vw",
-    height: "24vw",
+    top: "25%",
+    left: "20%",
+    width: "48vw",
+    height: "28vw",
     background:
-      "radial-gradient(70% 50% at 50% 50%, rgba(195,175,245,0.16) 0%, transparent 100%)",
-    blur: 68,
+      "radial-gradient(70% 50% at 50% 50%, rgba(180,160,245,0.3) 0%, transparent 100%)",
+    blur: 52,
     borderRadius: "50%",
-    duration: 3,
+    duration: 11,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "50%", transform: "translate(65px, 30px) scale(1.22)" },
+      { offset: "50%", transform: "translate(85px, 35px) scale(1.2)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
@@ -251,73 +264,141 @@ const PRESET_LAVENDER: BlobConfig[] = [
 
 const PRESET_PASTEL: BlobConfig[] = [
   {
-    // Bottom-left — warm peach / yellow wash
-    bottom: "-15%",
+    // Left — soft cyan/blue wash
+    top: "0%",
     left: "-10%",
-    width: "50vw",
-    height: "50vw",
+    width: "55vw",
+    height: "100%",
     background:
-      "radial-gradient(60% 55% at 35% 65%, rgba(255,220,180,0.50) 0%, rgba(255,235,205,0.20) 55%, transparent 100%)",
-    blur: 65,
+      "radial-gradient(60% 50% at 30% 50%, rgba(180,220,250,0.7) 0%, rgba(200,235,255,0.35) 45%, transparent 100%)",
+    blur: 50,
     borderRadius: "45%",
-    duration: 4,
+    duration: 18,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "30%", transform: "translate(130px, -70px) scale(1.20)" },
-      { offset: "65%", transform: "translate(-55px, 45px) scale(0.82)" },
+      { offset: "20%", transform: "translate(60px, -30px) scale(1.05)" },
+      { offset: "40%", transform: "translate(100px, 20px) scale(1.1)" },
+      { offset: "60%", transform: "translate(70px, 50px) scale(1.05)" },
+      { offset: "80%", transform: "translate(20px, 20px) scale(0.98)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
     // Center — soft pink / rose bloom
-    top: "25%",
-    left: "20%",
-    width: "55vw",
-    height: "50vw",
+    top: "20%",
+    left: "25%",
+    width: "50vw",
+    height: "60%",
     background:
-      "radial-gradient(55% 55% at 50% 55%, rgba(240,190,210,0.45) 0%, rgba(245,210,225,0.18) 55%, transparent 100%)",
-    blur: 70,
-    borderRadius: "48%",
-    duration: 3,
-    keyframes: [
-      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "40%", transform: "translate(-100px, 55px) scale(1.18)" },
-      { offset: "75%", transform: "translate(70px, -35px) scale(0.84)" },
-      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
-    ],
-  },
-  {
-    // Top-right — light sky blue
-    top: "-12%",
-    right: "-8%",
-    width: "45vw",
-    height: "55vh",
-    background:
-      "radial-gradient(55% 60% at 60% 38%, rgba(185,220,250,0.50) 0%, rgba(200,230,255,0.18) 55%, transparent 100%)",
+      "radial-gradient(55% 55% at 50% 50%, rgba(250,200,220,0.6) 0%, rgba(255,220,235,0.3) 50%, transparent 100%)",
     blur: 55,
-    borderRadius: "42%",
-    duration: 5,
+    borderRadius: "50%",
+    duration: 14,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "35%", transform: "translate(-110px, 65px) scale(1.20)" },
-      { offset: "70%", transform: "translate(60px, -45px) scale(0.84)" },
+      { offset: "25%", transform: "translate(-50px, 30px) scale(1.08)" },
+      { offset: "50%", transform: "translate(-80px, 60px) scale(1.12)" },
+      { offset: "75%", transform: "translate(-30px, 30px) scale(1.02)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
   {
-    // Bridge — faint lavender between pink and blue
-    top: "15%",
-    left: "40%",
-    width: "40vw",
-    height: "30vw",
+    // Right — warm peach / orange tint
+    top: "10%",
+    right: "-8%",
+    width: "50vw",
+    height: "80%",
     background:
-      "radial-gradient(70% 50% at 50% 50%, rgba(210,195,240,0.22) 0%, rgba(220,210,250,0.08) 60%, transparent 100%)",
-    blur: 75,
-    borderRadius: "50%",
-    duration: 3,
+      "radial-gradient(55% 60% at 65% 50%, rgba(255,225,200,0.65) 0%, rgba(255,240,220,0.3) 50%, transparent 100%)",
+    blur: 50,
+    borderRadius: "45%",
+    duration: 16,
     keyframes: [
       { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
-      { offset: "50%", transform: "translate(75px, 30px) scale(1.25)" },
+      { offset: "20%", transform: "translate(-50px, -25px) scale(1.06)" },
+      { offset: "40%", transform: "translate(-90px, 15px) scale(1.1)" },
+      { offset: "60%", transform: "translate(-60px, 45px) scale(1.04)" },
+      { offset: "80%", transform: "translate(-20px, 15px) scale(0.98)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+  {
+    // Subtle top accent — very soft lavender
+    top: "-5%",
+    left: "30%",
+    width: "40vw",
+    height: "35%",
+    background:
+      "radial-gradient(70% 50% at 50% 50%, rgba(220,210,250,0.4) 0%, rgba(230,225,255,0.15) 55%, transparent 100%)",
+    blur: 60,
+    borderRadius: "50%",
+    duration: 12,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "33%", transform: "translate(60px, 25px) scale(1.1)" },
+      { offset: "66%", transform: "translate(30px, 50px) scale(1.05)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+];
+
+const PRESET_MINT_PASTEL: BlobConfig[] = [
+  {
+    // Left — soft mint-cyan blend
+    top: "5%",
+    left: "-8%",
+    width: "55vw",
+    height: "90%",
+    background:
+      "radial-gradient(60% 50% at 30% 50%, rgba(160,225,215,0.6) 0%, rgba(185,235,225,0.3) 45%, transparent 100%)",
+    blur: 48,
+    borderRadius: "45%",
+    duration: 16,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "20%", transform: "translate(50px, -20px) scale(1.03)" },
+      { offset: "40%", transform: "translate(80px, 10px) scale(1.07)" },
+      { offset: "60%", transform: "translate(60px, 40px) scale(1.02)" },
+      { offset: "80%", transform: "translate(20px, 15px) scale(0.99)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+  {
+    // Center — soft peach transitioning
+    top: "25%",
+    left: "30%",
+    width: "45vw",
+    height: "55%",
+    background:
+      "radial-gradient(55% 55% at 50% 50%, rgba(245,215,205,0.5) 0%, rgba(250,225,215,0.25) 50%, transparent 100%)",
+    blur: 52,
+    borderRadius: "50%",
+    duration: 14,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "25%", transform: "translate(-30px, 20px) scale(1.05)" },
+      { offset: "50%", transform: "translate(-50px, 40px) scale(1.08)" },
+      { offset: "75%", transform: "translate(-20px, 20px) scale(1.02)" },
+      { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
+    ],
+  },
+  {
+    // Right — warm mint-orange blend
+    top: "15%",
+    right: "-5%",
+    width: "45vw",
+    height: "70%",
+    background:
+      "radial-gradient(55% 60% at 65% 50%, rgba(235,220,185,0.55) 0%, rgba(245,230,200,0.25) 50%, transparent 100%)",
+    blur: 50,
+    borderRadius: "45%",
+    duration: 17,
+    keyframes: [
+      { offset: "0%", transform: "translate(0px, 0px) scale(1)" },
+      { offset: "20%", transform: "translate(-40px, -15px) scale(1.04)" },
+      { offset: "40%", transform: "translate(-70px, 5px) scale(1.08)" },
+      { offset: "60%", transform: "translate(-50px, 30px) scale(1.03)" },
+      { offset: "80%", transform: "translate(-15px, 10px) scale(0.99)" },
       { offset: "100%", transform: "translate(0px, 0px) scale(1)" },
     ],
   },
@@ -325,6 +406,7 @@ const PRESET_PASTEL: BlobConfig[] = [
 
 const PRESETS: Record<string, BlobConfig[]> = {
   mint: PRESET_MINT,
+  "mint-pastel": PRESET_MINT_PASTEL,
   ocean: PRESET_OCEAN,
   sunset: PRESET_SUNSET,
   lavender: PRESET_LAVENDER,
@@ -389,10 +471,11 @@ export default function AuroraBlobBackground({
             width: blob.width,
             height: blob.height,
             background: blob.background,
-            filter: `blur(${blob.blur ?? 55}px)`,
+            filter: `blur(${blob.blur ?? 50}px)`,
             borderRadius: blob.borderRadius ?? "45%",
-            animation: `${buildKeyframeName(i)} ${blob.duration ?? 4}s ease-in-out infinite`,
+            animation: `${buildKeyframeName(i)} ${blob.duration ?? 12}s cubic-bezier(0.4, 0, 0.2, 1) infinite`,
             willChange: "transform",
+            transformOrigin: "center center",
           }}
         />
       ))}

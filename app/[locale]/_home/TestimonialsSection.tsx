@@ -3,11 +3,11 @@ import TestimonialHeader from "../../_components/_testimonials/TestimonialHeader
 import TestimonialCarousel from "../../_components/_testimonials/TestimonialCarousel";
 import type { Testimonial } from "../../_components/_testimonials/TestimonialCarousel";
 import AuroraBlobBackground from "@/app/_components/_backgrounds/AuroraBlobBackground";
-import Section5_2 from "./section_5_2";
+import PartnersSection from "./PartnersSection";
 
 const TESTIMONIAL_KEYS = ["t1", "t2", "t3", "t4", "t5"] as const;
 
-export default function Section5() {
+export default function TestimonialsSection() {
   const t = useTranslations("home.section5");
 
   const testimonials: Testimonial[] = TESTIMONIAL_KEYS.map((key) => ({
@@ -18,7 +18,7 @@ export default function Section5() {
 
   return (
     <section className="relative w-full py-20 sm:py-28">
-      <AuroraBlobBackground />
+      <AuroraBlobBackground preset="mint-pastel" />
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header: image + badge + title + description */}
         <TestimonialHeader
@@ -32,7 +32,7 @@ export default function Section5() {
         <TestimonialCarousel testimonials={testimonials} perPage={3} />
       </div>
       <div className="my-20">
-        <Section5_2 />
+        <PartnersSection />
       </div>
     </section>
   );

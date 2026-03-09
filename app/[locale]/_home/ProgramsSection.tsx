@@ -3,7 +3,7 @@ import ProgramCard from "@/app/_components/_cards/ProgramCard";
 import AuroraBlobBackground from "@/app/_components/_backgrounds/AuroraBlobBackground";
 import { useTranslations } from "next-intl";
 
-export default function Section3() {
+export default function ProgramsSection() {
   const t = useTranslations("home.section3");
 
   const stats = [

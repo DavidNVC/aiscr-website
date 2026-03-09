@@ -18,9 +18,11 @@ export default function ImpactCard({
 
       {/* Outer light-blue circle */}
       {/* Inner dark-blue circle */}
-      <div className="relative flex justify-center items-center">
-        <div className="absolute flex items-center justify-center w-24 h-24 rounded-full bg-blue-100 mb-6 " />
+      <div className="relative z-10 flex justify-center items-center w-24 h-24 mb-6">
+        {/* Outer light-blue circle with pulse animation */}
+        <div className="absolute inset-0 rounded-full bg-blue-100 animate-pulse" />
 
+        {/* Inner dark-blue circle */}
         <div className="relative flex items-center justify-center w-16 h-16 rounded-full bg-primary-blue">
           <Image
             src={icon}

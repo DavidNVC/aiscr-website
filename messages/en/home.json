@@ -122,5 +122,71 @@
       "description": "Our work is strengthened by collaboration with governments, universities, development partners, and the private sector.",
       "cta": "Become a partner"
     }
+  },
+  "insights": {
+    "badge": "About AISCR",
+    "title": "Insights that Shape the Future.",
+    "description": "Explore our latest research, publications, and upcoming events.",
+    "learn_more": "Learn More",
+    "view_more": "View more",
+    "tabs": {
+      "publications": "Publications",
+      "research": "Research",
+      "events": "Events"
+    },
+    "publications": {
+      "pub1": {
+        "title": "Advertising Secrets",
+        "description": "Jujubes apple pie lemon drops candy canes fruitcake ice cream jelly. Toffee fruitcake dragée lollipop bonbon chocolate bar. Caramels icing carrot cake. Icing dessert jujubes."
+      },
+      "pub2": {
+        "title": "Advertising Secrets",
+        "description": "Jujubes apple pie lemon drops candy canes fruitcake ice cream jelly. Toffee fruitcake dragée lollipop bonbon chocolate bar. Caramels icing carrot cake. Icing dessert jujubes."
+      },
+      "pub3": {
+        "title": "Advertising Secrets",
+        "description": "Jujubes apple pie lemon drops candy canes fruitcake ice cream jelly. Toffee fruitcake dragée lollipop bonbon chocolate bar. Caramels icing carrot cake. Icing dessert jujubes."
+      },
+      "pub4": {
+        "title": "Advertising Secrets",
+        "description": "Jujubes apple pie lemon drops candy canes fruitcake ice cream jelly. Toffee fruitcake dragée lollipop bonbon chocolate bar. Caramels icing carrot cake. Icing dessert jujubes."
+      }
+    },
+    "research": {
+      "res1": {
+        "title": "Supply Chain Innovation",
+        "description": "Exploring new methodologies for supply chain optimization across African markets. Data-driven insights for smarter logistics and distribution networks."
+      },
+      "res2": {
+        "title": "Supply Chain Innovation",
+        "description": "Exploring new methodologies for supply chain optimization across African markets. Data-driven insights for smarter logistics and distribution networks."
+      },
+      "res3": {
+        "title": "Supply Chain Innovation",
+        "description": "Exploring new methodologies for supply chain optimization across African markets. Data-driven insights for smarter logistics and distribution networks."
+      },
+      "res4": {
+        "title": "Supply Chain Innovation",
+        "description": "Exploring new methodologies for supply chain optimization across African markets. Data-driven insights for smarter logistics and distribution networks."
+      }
+    },
+    "events": {
+      "evt1": {
+        "title": "Pan-African Conference 2026",
+        "description": "Join us for the annual Pan-African Supply Chain Conference bringing together industry leaders, researchers, and policymakers from across the continent."
+      },
+      "evt2": {
+        "title": "Pan-African Conference 2026",
+        "description": "Join us for the annual Pan-African Supply Chain Conference bringing together industry leaders, researchers, and policymakers from across the continent."
+      },
+      "evt3": {
+        "title": "Pan-African Conference 2026",
+        "description": "Join us for the annual Pan-African Supply Chain Conference bringing together industry leaders, researchers, and policymakers from across the continent."
+      },
+      "evt4": {
+        "title": "Pan-African Conference 2026",
+        "description": "Join us for the annual Pan-African Supply Chain Conference bringing together industry leaders, researchers, and policymakers from across the continent."
+      }
+    }
   }
 }

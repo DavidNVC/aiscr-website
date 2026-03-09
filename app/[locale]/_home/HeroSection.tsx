@@ -4,7 +4,7 @@ import AuroraBlobBackground from "@/app/_components/_backgrounds/AuroraBlobBackg
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
-export default function Section1() {
+export default function HeroSection() {
   const t = useTranslations("home.hero");
 
   return (
