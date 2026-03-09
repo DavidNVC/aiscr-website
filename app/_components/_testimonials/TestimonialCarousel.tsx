@@ -45,7 +45,7 @@ export default function TestimonialCarousel({
           {pages.map((page, pageIndex) => (
             <div
               key={pageIndex}
-              className="w-full shrink-0 grid grid-cols-1 md:grid-cols-3 gap-6 px-1"
+              className="w-full shrink-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 px-1"
             >
               {page.map((testimonial, cardIndex) => (
                 <TestimonialCard
@@ -63,7 +63,7 @@ export default function TestimonialCarousel({
 
       {/* Dot indicators */}
       {pages.length > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-10">
+        <div className="flex items-center justify-center gap-2 mt-8 sm:mt-10">
           {pages.map((_, index) => (
             <button
               key={index}

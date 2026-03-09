@@ -25,25 +25,25 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="relative w-full min-h-screen overflow-hidden rounded-4xl">
+    <section className="relative w-full min-h-0 sm:min-h-screen overflow-hidden rounded-2xl sm:rounded-4xl">
       <DarkGridBackground />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-24 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-10 lg:px-16 py-16 sm:py-20 md:py-24 text-center">
         {/* Badge */}
-        <AppBadge className="mb-8 text-white/75">{t("badge")}</AppBadge>
+        <AppBadge className="mb-5 sm:mb-8 text-white/75">{t("badge")}</AppBadge>
 
         {/* Title */}
-        <h2 className="text-center text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
+        <h2 className="text-center text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
           {t("title")}
         </h2>
 
         {/* Description */}
-        <p className="text-center text-base sm:text-lg max-w-2xl mx-auto mb-16 leading-relaxed text-white-secondary">
+        <p className="text-center text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-10 sm:mb-16 leading-relaxed text-white-secondary px-2">
           {t("description")}
         </p>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
           {cards.map((card) => (
             <FeatureCard
               key={card.key}

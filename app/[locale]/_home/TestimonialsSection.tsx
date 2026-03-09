@@ -17,9 +17,10 @@ export default function TestimonialsSection() {
   }));
 
   return (
-    <section className="relative w-full py-20 sm:py-28">
+    <section className="relative w-full py-12 sm:py-20 md:py-28">
       <AuroraBlobBackground preset="mint-pastel" />
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
+
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-10 lg:px-16">
         {/* Header: image + badge + title + description */}
         <TestimonialHeader
           badge={t("badge")}
@@ -31,7 +32,8 @@ export default function TestimonialsSection() {
         {/* Testimonial cards carousel */}
         <TestimonialCarousel testimonials={testimonials} perPage={3} />
       </div>
-      <div className="my-20">
+
+      <div className="my-12 sm:my-16 md:my-20">
         <PartnersSection />
       </div>
     </section>

@@ -15,15 +15,12 @@ export default function FeatureCard({
   bottomImage,
 }: FeatureCardProps) {
   return (
-    <div className="relative overflow-hidden flex flex-col justify-end text-left rounded-[20px] min-h-80 border-12 border-[#D6E0FA]">
+    <div className="relative overflow-hidden flex flex-col justify-end text-left rounded-xl sm:rounded-[20px] min-h-60 sm:min-h-72 md:min-h-80 border-8 sm:border-12 border-[#D6E0FA]">
       {/* Grid background (light variant) */}
       <DarkGridBackground variant="white" withGradient={false} />
 
       {/* Top-left decorative image */}
-      <div
-        className="absolute top-0 left-0 z-10"
-        style={{ width: "130px", height: "130px" }}
-      >
+      <div className="absolute top-0 left-0 z-10 w-[80px] h-[80px] sm:w-[110px] sm:h-[110px] md:w-[130px] md:h-[130px]">
         <Image
           src={topImage}
           alt=""
@@ -35,10 +32,7 @@ export default function FeatureCard({
       </div>
 
       {/* Bottom-right decorative image */}
-      <div
-        className="absolute bottom-0 right-0 z-10"
-        style={{ width: "160px", height: "160px" }}
-      >
+      <div className="absolute bottom-0 right-0 z-10 w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] md:w-[160px] md:h-[160px]">
         <Image
           src={bottomImage}
           alt=""
@@ -50,15 +44,15 @@ export default function FeatureCard({
       </div>
 
       {/* Text content — bottom-left */}
-      <div className="relative z-20 p-7 pt-0">
+      <div className="relative z-20 p-4 sm:p-5 md:p-7 pt-0">
         <h3
-          className="text-2xl font-bold mb-2 leading-snug"
+          className="text-lg sm:text-xl md:text-2xl font-bold mb-1.5 sm:mb-2 leading-snug"
           style={{ color: "#0a1636" }}
         >
           {title}
         </h3>
         <p
-          className="text-[15px] leading-relaxed"
+          className="text-xs sm:text-sm md:text-[15px] leading-relaxed"
           style={{ color: "#4a5568", maxWidth: "260px" }}
         >
           {description}

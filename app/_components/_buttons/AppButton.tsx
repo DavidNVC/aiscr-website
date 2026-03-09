@@ -20,7 +20,7 @@ export default function AppButton({
     return (
       <button
         onClick={onClick}
-        className={`cursor-pointer text-base px-6 rounded-lg h-13 relative ${className || ""}`}
+        className={`cursor-pointer text-sm sm:text-base px-4 sm:px-6 rounded-lg h-11 sm:h-13 relative ${className || ""}`}
         style={{
           background:
             "linear-gradient(white, white) padding-box, linear-gradient(180deg, #2c5cd5 0%, #193b8f 100%) border-box",
@@ -43,7 +43,7 @@ export default function AppButton({
 
   return (
     <button
-      className={`bg-primary-button cursor-pointer text-base px-6 text-white rounded-lg h-13 ${className || ""}`}
+      className={`bg-primary-button cursor-pointer text-sm sm:text-base px-4 sm:px-6 text-white rounded-lg h-11 sm:h-13 ${className || ""}`}
       onClick={onClick}
     >
       <span className="text-white">{children}</span>

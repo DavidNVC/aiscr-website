@@ -26,7 +26,7 @@ export default function LogoMarquee({
   return (
     <div className="w-full overflow-hidden">
       <div
-        className="flex items-center gap-16 md:gap-24"
+        className="flex items-center gap-8 sm:gap-12 md:gap-16 lg:gap-24"
         style={{
           animation: `marquee-${direction} ${duration}s linear infinite`,
           width: "max-content",
@@ -35,7 +35,7 @@ export default function LogoMarquee({
         {duplicatedPartners.map((partner, index) => (
           <div
             key={`${partner.name}-${index}`}
-            className="flex items-center justify-center shrink-0 h-12 md:h-16 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+            className="flex items-center justify-center shrink-0 h-8 sm:h-10 md:h-12 lg:h-16 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
           >
             <Image
               src={partner.logo}

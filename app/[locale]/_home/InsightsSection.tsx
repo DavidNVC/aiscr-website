@@ -41,26 +41,26 @@ export default function InsightsSection() {
   const t = useTranslations("home.insights");
 
   return (
-    <section className="relative w-full py-20 sm:py-28 overflow-hidden">
+    <section className="relative w-full py-12 sm:py-20 md:py-28 overflow-hidden">
       {/* Aurora background */}
       <AuroraBlobBackground preset="pastel" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-10 lg:px-16">
         {/* Header */}
-        <div className="text-center mb-12">
-          <AppBadge className="mb-6">{t("badge")}</AppBadge>
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <AppBadge className="mb-4 sm:mb-6">{t("badge")}</AppBadge>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-gradient">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 sm:mb-6 text-gradient">
             {t("title")}
           </h2>
 
-          <p className="text-base sm:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg text-gray-500 max-w-xl sm:max-w-2xl mx-auto leading-relaxed px-2">
             {t("description")}
           </p>
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 mb-10 sm:mb-12">
           {INSIGHTS_DATA.map((insight) => (
             <InsightCard
               key={insight.key}
@@ -75,9 +75,9 @@ export default function InsightsSection() {
         </div>
 
         {/* View More Button */}
-        <div className="flex justify-center">
+        <div className="flex justify-center px-5">
           <Link href="/insights">
-            <AppButton className="px-12 py-3 text-base">
+            <AppButton className="px-8 sm:px-12 py-2.5 sm:py-3 text-sm sm:text-base">
               {t("view_more")}
             </AppButton>
           </Link>

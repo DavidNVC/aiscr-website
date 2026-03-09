@@ -19,34 +19,42 @@ export default function InsightCard({
   href = "#",
 }: InsightCardProps) {
   return (
-    <div className="group flex flex-col bg-white rounded-lg overflow-hidden transition-all duration-300 shadow-[0px_2px_14.3px_9px_#0000001A]">
+    <div
+      className="group flex flex-col bg-white rounded-lg overflow-hidden transition-all duration-300 shadow-[0px_2px_14.3px_9px_#0000001A]"
+      style={{ borderRadius: "8px" }}
+    >
       {/* Image Container */}
-      <div className="relative w-full aspect-4/3 overflow-hidden">
+      <div className="relative w-full aspect-[4/3] overflow-hidden">
         <Image
           src={imageSrc}
           alt={title}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
       </div>
 
       {/* Content */}
-      <div className="flex flex-col flex-1 p-5">
-        <span className="text-xs text-gray-500 mb-2">{date}</span>
+      <div className="flex flex-col flex-1 p-4 sm:p-5">
+        {/* Date */}
+        <span className="text-[11px] sm:text-xs text-gray-500 mb-1.5 sm:mb-2">
+          {date}
+        </span>
 
-        <h3 className="text-2xl line-clamp-1 font-bold text-[#0a1636] mb-3 leading-snug">
+        {/* Title */}
+        <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl line-clamp-1 font-bold text-[#0a1636] mb-2 sm:mb-3 leading-snug">
           {title}
         </h3>
 
         {/* Description */}
-        <p className="text-sm text-gray-600 leading-relaxed mb-4 line-clamp-4">
+        <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-3 sm:mb-4 line-clamp-3 sm:line-clamp-4">
           {description}
         </p>
 
         {/* Learn More Link */}
         <Link
           href={href}
-          className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-primary-blue hover:gap-3 transition-all duration-300"
+          className="mt-auto inline-flex items-center gap-2 text-xs sm:text-sm font-medium text-primary-blue hover:gap-3 transition-all duration-300"
         >
           {learnMore}
           <svg
