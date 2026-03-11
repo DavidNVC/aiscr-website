@@ -11,7 +11,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  const namespaces = ["metadata", "home", "header", "footer"];
+  const namespaces = ["metadata", "home", "header", "footer", "about"];
 
   const messages: Record<string, unknown> = {};
 

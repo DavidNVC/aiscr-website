@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import DarkGridBackground from "../_backgrounds/DarkGridBackground";
+import GridBackground from "../_backgrounds/GridBackground";
 import AppBadge from "../_buttons/AppBadge";
 import AppButton, { AppButtonType } from "../_buttons/AppButton";
 
@@ -29,7 +29,7 @@ export default function Footer() {
 
   return (
     <footer className="relative w-full overflow-hidden z-30">
-      <DarkGridBackground />
+      <GridBackground />
 
       {/* ── CTA Section ── */}
       <div className="relative border-b border-white/10">

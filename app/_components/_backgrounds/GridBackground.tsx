@@ -3,7 +3,7 @@ interface DarkGridBackgroundProps {
   withGradient?: boolean;
 }
 
-export default function DarkGridBackground({
+export default function GridBackground({
   variant = "dark",
   withGradient = true,
 }: DarkGridBackgroundProps) {

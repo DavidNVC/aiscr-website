@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DarkGridBackground from "../_backgrounds/DarkGridBackground";
+import GridBackground from "../_backgrounds/GridBackground";
 
 interface ImpactCardProps {
   icon: string;
@@ -14,7 +14,7 @@ export default function ImpactCard({
 }: ImpactCardProps) {
   return (
     <div className="relative overflow-hidden flex flex-col items-center text-center rounded-xl sm:rounded-2xl p-6 sm:p-8 pt-8 sm:pt-10 border border-slate-200">
-      <DarkGridBackground variant="white" withGradient={false} />
+      <GridBackground variant="white" withGradient={false} />
 
       {/* Icon circles */}
       <div className="relative z-10 flex justify-center items-center w-18 h-18 sm:w-24 sm:h-24 mb-4 sm:mb-6">

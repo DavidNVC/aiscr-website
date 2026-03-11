@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "Shaping Africa’s Supply Chain Future",
+    "description": "AISCR (African Institute for Supply Chain Research) transforms research into concrete actions for more resilient, inclusive and sustainable supply chains across Africa",
+    "cta_primary": "Donate now",
+    "cta_secondary": "Discover our work",
+    "why": {
+      "title": "Why we exist",
+      "description_p1": "Supply chains in Africa represent both a tremendous opportunity and a series of challenges: fragmented markets, a lack of reliable data, logistical vulnerabilities, and limited capacity. Without rigorous diagnostics and targeted actions, these weaknesses stifle growth, increase costs, and restrict access to essential goods.",
+      "description_p2": "AISCR was created to respond to this observation: to produce applied research, train leaders and co-create solutions with local stakeholders in order to transform these challenges into levers for development."
+    }
+  },
+  "mission_vision": {
+    "title": "Our Mission & Vision",
+    "mission": {
+      "label": "Mission",
+      "text": "We produce actionable research, train talent, and develop partnerships to make African supply chains more efficient and equitable."
+    },
+    "vision": {
+      "label": "Vision",
+      "text": "Imagine an Africa where logistics systems are not only efficient but also designed to foster inclusive and resilient growth. Enabling everyone to benefit from equitable access to resources and markets."
+    }
+  },
+  "pillars": {
+    "title": "How we work — Our Pillars",
+    "subtitle": "We generate evidence, build capability, and enable collaboration to advance supply chain performance. AISCR strengthens supply chain systems by:",
+    "cta": "Explore our Program",
+    "research": {
+      "title": "Applied Research",
+      "description": "Production of field studies and analysis to guide policies and decisions."
+    },
+    "education": {
+      "title": "Education & Training",
+      "description": "Certificate programs, workshops, and scholarships to build the next generation."
+    },
+    "solutions": {
+      "title": "Enterprise Solutions",
+      "description": "Support for companies and institutions to implement results."
+    },
+    "engagement": {
+      "title": "Events & Engagement",
+      "description": "Conferences and webinars to disseminate and co-create solutions."
+    }
+  },
+  "approach": {
+    "badge": "Our approach:",
+    "title": "Rigour + Relevance",
+    "description": "Nous associons méthodes quantitatives, enquêtes terrain et partenariats locaux pour produire des recommandations opérationnelles. Nos travaux privilégient l'impact mesurable : changements de politique, améliorations opérationnelles, capacités renforcées.",
+    "cards": {
+      "diagnose": "Diagnose",
+      "research": "Research",
+      "pilot": "Pilot",
+      "scale": "Scale"
+    }
+  }
+}

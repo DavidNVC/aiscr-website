@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import DarkGridBackground from "../../_components/_backgrounds/DarkGridBackground";
+import GridBackground from "../../_components/_backgrounds/GridBackground";
 import ImpactCard from "../../_components/_cards/ImpactCard";
 import AppBadge from "@/app/_components/_buttons/AppBadge";
 import AppButton from "@/app/_components/_buttons/AppButton";
@@ -24,7 +24,7 @@ export default function ImpactSection() {
 
   return (
     <section className="relative w-full min-h-0 sm:min-h-screen overflow-hidden rounded-2xl sm:rounded-4xl">
-      <DarkGridBackground />
+      <GridBackground />
 
       <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-10 lg:px-16 py-16 sm:py-20 md:py-24 text-center">
         <AppBadge className="mb-5 sm:mb-8 text-white/75">{t("badge")}</AppBadge>

@@ -169,12 +169,12 @@ export const menus = [
   {
     key: "about_aiscr",
     label: "about_aiscr",
-    href: "/about-aiscr",
+    href: "/",
     children: [
       {
         key: "about_aiscr_overview",
         label: "about_aiscr_overview",
-        href: "/about-aiscr",
+        href: "/about",
       },
       {
         key: "board_of_directors",

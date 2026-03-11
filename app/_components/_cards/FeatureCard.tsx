@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DarkGridBackground from "../_backgrounds/DarkGridBackground";
+import GridBackground from "../_backgrounds/GridBackground";
 
 interface FeatureCardProps {
   title: string;
@@ -17,7 +17,7 @@ export default function FeatureCard({
   return (
     <div className="relative overflow-hidden flex flex-col justify-end text-left rounded-xl sm:rounded-[20px] min-h-60 sm:min-h-72 md:min-h-80 border-8 sm:border-12 border-[#D6E0FA]">
       {/* Grid background (light variant) */}
-      <DarkGridBackground variant="white" withGradient={false} />
+      <GridBackground variant="white" withGradient={false} />
 
       {/* Top-left decorative image */}
       <div className="absolute top-0 left-0 z-10 w-[80px] h-[80px] sm:w-[110px] sm:h-[110px] md:w-[130px] md:h-[130px]">
